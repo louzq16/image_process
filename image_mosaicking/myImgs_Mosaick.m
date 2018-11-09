@@ -1,0 +1,9 @@
+%此脚本测试自己拍的照片的拼接效果
+t=imgRW('img2\');%读取目录下的jpg图像 
+max_ransac=3;%设置RANSAC的阈值为3
+SURF_mer=400;%设置SURF强度阈值为400
+ratio=4;%缩放比例1：4
+center=1;%以第一幅读取的图像为中心图像
+[new,new_edge]=myImgregist(t,ratio,center,SURF_mer,max_ransac);%图像配准，返回配准图像及其轮廓
+Mimg=myImgfuse(new,new_edge);%图像融合
+imshow(Mimg);%显示图像
