@@ -18,7 +18,7 @@
 * ImgMosaick 运行此脚本，得到以1.jpg为中心图像的拼接图像 【脚本】
 * myImgs_Mosaick 运行此脚本，得到我自己所拍的图片的拼接图像 【脚本】
 
-#程序运行说明
+# 程序运行说明
 * 运行上面的两个脚本ImgMosaick myImgs_Mosaick可分别得到作业要求的拼接图像和我自己所拍图片的拼接图像
 * 对ImgMosaick中的center变量进行更改可得到不同中心图像的拼接图像
 * myImgs_Mosaick 不建议更改，当然助教您也可以试一下
